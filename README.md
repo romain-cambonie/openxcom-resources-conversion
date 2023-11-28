@@ -22,7 +22,7 @@ in the same folder
 sudo chmod +x process_image_to_resource.sh
 ```
 
-#Setup
+# Setup
 
 ## Add color palettes to GIMP
 - Open GIMP
