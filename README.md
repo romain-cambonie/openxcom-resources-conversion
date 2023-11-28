@@ -37,12 +37,12 @@ sudo chmod +x process_image_to_resource.sh
 
 ## Examples Usage
 
-Create an ufopedia ready resource 
+### Create an ufopedia ready resource 
 ```shell
 ./process_image_to_resource.sh input.png XCOM-Ufopaedia output.png
 ```
 
-Batch process a directory
+### Batch process a directory
 ```shell
 find /path/to/input/directory -name "*.png" -print0 | xargs -0 -I {} bash -c 'filename=$(basename "{}"); ./process_image_to_resource.sh "{}" "XCOM-Ufopaedia" "/path/to/output/directory/$filename"'
 ```
